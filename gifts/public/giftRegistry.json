@@ -1,0 +1,9 @@
+[
+    {
+        "name": "Example Item",
+        "amazonLink": "httpS://www.amazon.com/",
+        "genericLink": "",
+        "price": "1995",
+        "wantScore": "5"
+    }
+]
