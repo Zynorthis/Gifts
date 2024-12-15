@@ -4,7 +4,7 @@ import { LandingPage } from './LandingPage';
 
 export const App = () => {
   return (
-    <MantineProvider>
+    <MantineProvider withGlobalClasses>
       <div className="App">
         <header className="App-header">
           <LandingPage />

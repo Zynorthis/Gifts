@@ -1,9 +1,37 @@
 [
     {
-        "name": "Example Item",
-        "amazonLink": "httpS://www.amazon.com/",
+        "name": "Example Item 1",
+        "amazonLink": "https://www.amazon.com/",
         "genericLink": "",
-        "price": "1995",
-        "wantScore": "5"
+        "price": 1995,
+        "wantScore": 5
+    },
+    {
+        "name": "Example Item 2",
+        "amazonLink": "https://www.amazon.com/",
+        "genericLink": "",
+        "price": 1995,
+        "wantScore": 5
+    },
+    {
+        "name": "Example Item 3",
+        "amazonLink": "https://www.amazon.com/",
+        "genericLink": "",
+        "price": 1995,
+        "wantScore": 5
+    },
+    {
+        "name": "Example Item 4",
+        "amazonLink": "https://www.amazon.com/",
+        "genericLink": "",
+        "price": 1995,
+        "wantScore": 5
+    },
+    {
+        "name": "Example Item 5",
+        "amazonLink": "https://www.amazon.com/",
+        "genericLink": "",
+        "price": 1995,
+        "wantScore": 5
     }
 ]
