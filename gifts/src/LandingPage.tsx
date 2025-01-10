@@ -10,7 +10,23 @@ export const LandingPage = () => {
         if (gift.price <= 5000)
             return gift;
         return;
+    });
+
+    const fiftyToOneHundredGifts = gifts?.map((gift) => {
+        if (gift.price >= 5001 && gift.price <= 10000)
+            return gift;
+        return;
     })
+
+    const overOneHundredGifts = gifts?.map((gift) => {
+        if (gift.price > 10000)
+            return gift;
+        return;
+    });
+
+    console.log(`Under Fifty: ${underFiftyGifts}`);
+    console.log(`Fifty To One Hunded: ${fiftyToOneHundredGifts}`);
+    console.log(`Over One Hundred: ${overOneHundredGifts}`);
 
     if (isLoading) return <div>Loading...</div>;
     if (error) return <div>Error: {error}</div>;
@@ -25,7 +41,29 @@ export const LandingPage = () => {
                 <div className='section'>
                     {underFiftyGifts.map((gift, index) => {
                         if (gift === undefined) return;
-                        return <GiftTile key={index} gift={gift} />;
+                        return <GiftTile key={`underFifty-${index}`} gift={gift} />;
+                    })}
+                </div>
+            </>
+        )}
+        {fiftyToOneHundredGifts?.some((gift) => gift !== undefined) && (
+            <>
+                <h3>$50 - $100</h3>
+                <div className='section'>
+                    {fiftyToOneHundredGifts.map((gift, index) => {
+                        if (gift === undefined) return;
+                        return <GiftTile key={`fiftyToOneHundred-${index}`} gift={gift} />;
+                    })}
+                </div>
+            </>
+        )}
+        {overOneHundredGifts?.some((gift) => gift !== undefined) && (
+            <>
+                <h3>Over $100</h3>
+                <div className='section'>
+                    {overOneHundredGifts.map((gift, index) => {
+                        if (gift === undefined) return;
+                        return <GiftTile key={`overOneHundred-${index}`} gift={gift} />;
                     })}
                 </div>
             </>

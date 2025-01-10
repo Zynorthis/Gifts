@@ -11,7 +11,7 @@ export const GiftTile = ({ gift }: GiftTileProps) => {
 
     const formatPrice = (price: number) => {
         const cents = price % 100;
-        const dollars = Math.round(price / 100);
+        const dollars = Math.floor(price / 100);
         return `${dollars}.${cents}`;
     }
 

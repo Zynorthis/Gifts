@@ -17,14 +17,14 @@
         "name": "Example Item 3",
         "amazonLink": "https://www.amazon.com/",
         "genericLink": "",
-        "price": 1995,
+        "price": 4995,
         "wantScore": 5
     },
     {
         "name": "Example Item 4",
         "amazonLink": "https://www.amazon.com/",
         "genericLink": "",
-        "price": 1995,
+        "price": 3750,
         "wantScore": 5
     },
     {
@@ -32,6 +32,20 @@
         "amazonLink": "https://www.amazon.com/",
         "genericLink": "",
         "price": 1995,
+        "wantScore": 5
+    },
+    {
+        "name": "Example Item 6",
+        "amazonLink": "https://www.amazon.com/",
+        "genericLink": "",
+        "price": 5995,
+        "wantScore": 5
+    },
+    {
+        "name": "Example Item 7",
+        "amazonLink": "https://www.amazon.com/",
+        "genericLink": "",
+        "price": 14995,
         "wantScore": 5
     }
 ]
