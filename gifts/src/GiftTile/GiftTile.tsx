@@ -27,12 +27,12 @@ export const GiftTile = ({ gift }: GiftTileProps) => {
             </Card.Section>
             <Card.Section>
                 {gift.amazonLink !== '' &&
-                    <a href={gift.amazonLink} target="_blank" className="link-icon">
+                    <a href={gift.amazonLink} target="_blank" rel='noreferrer' className="link-icon">
                         <IconBrandAmazon color="grey" className="icon"/>
                     </a>
                 }
                 {gift.genericLink !== '' &&
-                    <a href={gift.genericLink} target='_blank' className='link-icon'>
+                    <a href={gift.genericLink} target='_blank' rel='noreferrer' className='link-icon'>
                         <IconLink color='grey' className='icon' />
                     </a>
                 }

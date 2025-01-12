@@ -9,19 +9,19 @@ export const LandingPage = () => {
     const underFiftyGifts = gifts?.map((gift) => {
         if (gift.price <= 5000)
             return gift;
-        return;
+        return undefined;
     });
 
     const fiftyToOneHundredGifts = gifts?.map((gift) => {
         if (gift.price >= 5001 && gift.price <= 10000)
             return gift;
-        return;
+        return undefined;
     })
 
     const overOneHundredGifts = gifts?.map((gift) => {
         if (gift.price > 10000)
             return gift;
-        return;
+        return undefined;
     });
 
     if (isLoading) return <div>Loading...</div>;
@@ -40,7 +40,7 @@ export const LandingPage = () => {
                 <h3>Under $50</h3>
                 <div className='section'>
                     {underFiftyGifts.map((gift, index) => {
-                        if (gift === undefined) return;
+                        if (gift === undefined) return undefined;
                         return <GiftTile key={`underFifty-${index}`} gift={gift} />;
                     })}
                 </div>
@@ -51,7 +51,7 @@ export const LandingPage = () => {
                 <h3>$50 - $100</h3>
                 <div className='section'>
                     {fiftyToOneHundredGifts.map((gift, index) => {
-                        if (gift === undefined) return;
+                        if (gift === undefined) return undefined;
                         return <GiftTile key={`fiftyToOneHundred-${index}`} gift={gift} />;
                     })}
                 </div>
@@ -62,7 +62,7 @@ export const LandingPage = () => {
                 <h3>Over $100</h3>
                 <div className='section'>
                     {overOneHundredGifts.map((gift, index) => {
-                        if (gift === undefined) return;
+                        if (gift === undefined) return undefined;
                         return <GiftTile key={`overOneHundred-${index}`} gift={gift} />;
                     })}
                 </div>
