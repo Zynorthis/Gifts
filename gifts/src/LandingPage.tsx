@@ -24,10 +24,6 @@ export const LandingPage = () => {
         return;
     });
 
-    console.log(`Under Fifty: ${underFiftyGifts}`);
-    console.log(`Fifty To One Hunded: ${fiftyToOneHundredGifts}`);
-    console.log(`Over One Hundred: ${overOneHundredGifts}`);
-
     if (isLoading) return <div>Loading...</div>;
     if (error) return <div>Error: {error}</div>;
     
@@ -36,7 +32,10 @@ export const LandingPage = () => {
         <h1>Gift Registry</h1>
         <p>I got tired of sending out the same gift list year round, so here's my permanent gift registry</p>
         <p className="subtext">(up to date prices and not owned yet)</p>
-        {underFiftyGifts && (
+        {gifts?.length === 0 && (
+            <div>Ope, nothing is currently on my list. Check the amazon links at the top of the page, or send me money instead :)</div>
+        )}
+        {underFiftyGifts?.some((gift) => gift !== undefined) && (
             <>
                 <h3>Under $50</h3>
                 <div className='section'>

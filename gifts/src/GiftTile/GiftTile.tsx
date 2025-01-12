@@ -1,6 +1,6 @@
 import { Card } from "@mantine/core";
 import { Gift } from "../models";
-import { IconBrandAmazon } from "@tabler/icons-react";
+import { IconBrandAmazon, IconLink } from "@tabler/icons-react";
 import './GiftTile.css';
 
 export interface GiftTileProps {
@@ -12,6 +12,8 @@ export const GiftTile = ({ gift }: GiftTileProps) => {
     const formatPrice = (price: number) => {
         const cents = price % 100;
         const dollars = Math.floor(price / 100);
+        if (cents === 0)
+            return `${dollars}.00`
         return `${dollars}.${cents}`;
     }
 
@@ -21,13 +23,17 @@ export const GiftTile = ({ gift }: GiftTileProps) => {
                 <h3>{gift.name}</h3>
             </Card.Section>
             <Card.Section>
-                <div>Desire Score: {gift.wantScore}/5</div>
                 <div>Price: ${formatPrice(gift.price)}</div>
             </Card.Section>
             <Card.Section>
                 {gift.amazonLink !== '' &&
                     <a href={gift.amazonLink} target="_blank" className="link-icon">
                         <IconBrandAmazon color="grey" className="icon"/>
+                    </a>
+                }
+                {gift.genericLink !== '' &&
+                    <a href={gift.genericLink} target='_blank' className='link-icon'>
+                        <IconLink color='grey' className='icon' />
                     </a>
                 }
             </Card.Section>

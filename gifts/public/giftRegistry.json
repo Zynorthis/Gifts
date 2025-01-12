@@ -1,51 +1,38 @@
 [
     {
-        "name": "Example Item 1",
-        "amazonLink": "https://www.amazon.com/",
-        "genericLink": "",
-        "price": 1995,
-        "wantScore": 5
+        "name": "Bambu Lab A1 Printer Combo",
+        "amazonLink": "",
+        "genericLink": "https://us.store.bambulab.com/products/a1?srsltid=AfmBOoobhwIMnS5gztt8FtjqZ5omrrOrI184rkoIMMhLzAAJwoAhZQxq",
+        "price": 48900
     },
     {
-        "name": "Example Item 2",
-        "amazonLink": "https://www.amazon.com/",
-        "genericLink": "",
-        "price": 1995,
-        "wantScore": 5
+        "name": "Raspberry Pi 3 Model B Plus (B+)",
+        "amazonLink": "",
+        "genericLink": "https://www.pishop.us/product/raspberry-pi-3-model-b-plus/?src=raspberrypi",
+        "price": 3500
     },
     {
-        "name": "Example Item 3",
-        "amazonLink": "https://www.amazon.com/",
-        "genericLink": "",
-        "price": 4995,
-        "wantScore": 5
+        "name": "Raspberry Pi Model 4 / 4GB",
+        "amazonLink": "",
+        "genericLink": "https://www.pishop.us/product/raspberry-pi-4-model-b-4gb/?src=raspberrypi",
+        "price": 5500
     },
     {
-        "name": "Example Item 4",
-        "amazonLink": "https://www.amazon.com/",
-        "genericLink": "",
-        "price": 3750,
-        "wantScore": 5
+        "name": "Corne Keyboard",
+        "amazonLink": "",
+        "genericLink": "#",
+        "price": 7500
     },
     {
-        "name": "Example Item 5",
-        "amazonLink": "https://www.amazon.com/",
-        "genericLink": "",
-        "price": 1995,
-        "wantScore": 5
+        "name": "Laptop Extendable Monitor",
+        "amazonLink": "",
+        "genericLink": "#",
+        "price": 19999
     },
     {
-        "name": "Example Item 6",
-        "amazonLink": "https://www.amazon.com/",
-        "genericLink": "",
-        "price": 5995,
-        "wantScore": 5
-    },
-    {
-        "name": "Example Item 7",
-        "amazonLink": "https://www.amazon.com/",
-        "genericLink": "",
-        "price": 14995,
-        "wantScore": 5
+        "name": "No Grid Survival Projects Book",
+        "amazonLink": "",
+        "genericLink": "#",
+        "price": 1599
     }
 ]
