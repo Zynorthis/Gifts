@@ -3,4 +3,7 @@ An extension of my personal website that showcases all of my current wishlist it
 
 ## TODOs
 - Properly configure ESLint
-- Install Prettier 
+- Install Prettier
+- Add Footer
+- Fix Navbar text wrapping on Mobile
+- Update links
