@@ -19,8 +19,8 @@ jobs:
           node-version: '16'
 
       - name: Install Dependencies
-        run: npm |
-          install -g yarn
+        run: |
+          npm install -g yarn
           yarn isntall
 
       - name: Build
