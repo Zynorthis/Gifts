@@ -26,6 +26,7 @@ export const LandingPage = () => {
 
     if (isLoading) return <div>Loading...</div>;
     if (error) return <div>Error: {error}</div>;
+    if (!gifts) return <div>No gifts found</div>;
     
     return (<>
         <Navigationbar />
