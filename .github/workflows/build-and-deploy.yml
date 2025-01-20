@@ -21,6 +21,7 @@ jobs:
       - name: Install Dependencies
         run: |
           npm install -g yarn
+          cd ./gifts
           yarn isntall
 
       - name: Build
