@@ -4,7 +4,7 @@ import './NavigationBar.css';
 export const Navigationbar = () => {
     return <nav>
         <ul>
-            <LinkListItem link="https://jacobt.dev/" text="Portfolio" />
+            <LinkListItem link="https://jacobt.dev/" text="Portfolio" shouldOpenInNewTab={false} />
         </ul>
         <ul className='divider'>|</ul>
         <ul>
