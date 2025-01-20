@@ -22,7 +22,7 @@ jobs:
         run: |
           npm install -g yarn
           cd ./gifts
-          yarn isntall
+          yarn install
 
       - name: Build
         run: yarn run build
