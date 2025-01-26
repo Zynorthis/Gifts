@@ -30,7 +30,7 @@ export const LandingPage = () => {
     
     return (<>
         <Navigationbar />
-        <h1>Gift Registry</h1>
+        <h1>Gift Registry - Mobile Commit Test</h1>
         <p>I got tired of sending out the same gift list year round, so here's my permanent gift registry</p>
         <p className="subtext">(up to date prices and not owned yet)</p>
         {gifts?.length === 0 && (
