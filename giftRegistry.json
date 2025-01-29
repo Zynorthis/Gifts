@@ -1,38 +1,38 @@
 [
-    {
-        "name": "Bambu Lab A1 Printer Combo",
-        "amazonLink": "",
-        "genericLink": "https://us.store.bambulab.com/products/a1?srsltid=AfmBOoobhwIMnS5gztt8FtjqZ5omrrOrI184rkoIMMhLzAAJwoAhZQxq",
-        "price": 48900
-    },
-    {
-        "name": "Raspberry Pi 3 Model B Plus (B+)",
-        "amazonLink": "",
-        "genericLink": "https://www.pishop.us/product/raspberry-pi-3-model-b-plus/?src=raspberrypi",
-        "price": 3500
-    },
-    {
-        "name": "Raspberry Pi Model 4 / 4GB",
-        "amazonLink": "",
-        "genericLink": "https://www.pishop.us/product/raspberry-pi-4-model-b-4gb/?src=raspberrypi",
-        "price": 5500
-    },
-    {
-        "name": "Corne Keyboard",
-        "amazonLink": "",
-        "genericLink": "#",
-        "price": 7500
-    },
-    {
-        "name": "Laptop Extendable Monitor",
-        "amazonLink": "",
-        "genericLink": "#",
-        "price": 19999
-    },
-    {
-        "name": "No Grid Survival Projects Book",
-        "amazonLink": "",
-        "genericLink": "#",
-        "price": 1599
-    }
+  {
+    "name": "Bambu Lab A1 Printer Combo",
+    "amazonLink": "",
+    "genericLink": "https://us.store.bambulab.com/products/a1?srsltid=AfmBOoobhwIMnS5gztt8FtjqZ5omrrOrI184rkoIMMhLzAAJwoAhZQxq",
+    "price": 48900
+  },
+  {
+    "name": "Raspberry Pi 3 Model B Plus (B+)",
+    "amazonLink": "",
+    "genericLink": "https://www.pishop.us/product/raspberry-pi-3-model-b-plus/?src=raspberrypi",
+    "price": 3500
+  },
+  {
+    "name": "Raspberry Pi Model 4 / 4GB",
+    "amazonLink": "",
+    "genericLink": "https://www.pishop.us/product/raspberry-pi-4-model-b-4gb/?src=raspberrypi",
+    "price": 5500
+  },
+  {
+    "name": "Corne Keyboard",
+    "amazonLink": "",
+    "genericLink": "#",
+    "price": 7500
+  },
+  {
+    "name": "Laptop Extendable Monitor",
+    "amazonLink": "",
+    "genericLink": "#",
+    "price": 19999
+  },
+  {
+    "name": "No Grid Survival Projects Book",
+    "amazonLink": "",
+    "genericLink": "#",
+    "price": 1599
+  }
 ]
