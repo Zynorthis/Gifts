@@ -1,6 +1,6 @@
-import { MantineProvider } from '@mantine/core';
-import './App.css';
-import { LandingPage } from './LandingPage';
+import { MantineProvider } from "@mantine/core";
+import "./App.css";
+import { LandingPage } from "./LandingPage";
 
 export const App = () => {
   return (
@@ -12,4 +12,4 @@ export const App = () => {
       </div>
     </MantineProvider>
   );
-}
+};

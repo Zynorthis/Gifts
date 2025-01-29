@@ -1,13 +1,13 @@
 nav {
-    background-color: rgb(124, 124, 124);
-    padding: 1rem;
+  background-color: rgb(124, 124, 124);
+  padding: 1rem;
 }
 
 nav ul {
-    list-style: none;
-    display: inline;
+  list-style: none;
+  display: inline;
 }
 
 .divider {
-    color: black;
+  color: black;
 }
