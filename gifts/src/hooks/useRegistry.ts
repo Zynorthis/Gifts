@@ -1,8 +1,8 @@
-import { useEffect, useState } from "react";
-import { Gift } from "../models";
+import { useEffect, useState } from 'react';
+import { Gift } from '../models';
 
 export const useRegistry = () => {
-  const giftRegistryPath = "./giftRegistry.json";
+  const giftRegistryPath = './giftRegistry.json';
   const [gifts, setGifts] = useState<Gift[] | null>(null);
   const [isLoading, setIsLoading] = useState<boolean>(false);
   const [error, setError] = useState<string | null>(null);
@@ -20,7 +20,7 @@ export const useRegistry = () => {
         setGifts(result);
       } catch (error) {
         setError(
-          error instanceof Error ? error.message : "An unknown error occurred",
+          error instanceof Error ? error.message : 'An unknown error occurred',
         );
       } finally {
         setIsLoading(false);

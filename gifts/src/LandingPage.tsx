@@ -1,7 +1,7 @@
-import { useRegistry } from "./hooks/useRegistry";
-import { GiftTile } from "./GiftTile/GiftTile";
-import { Navigationbar } from "./NavigationBar/NavigationBar";
-import "./LandingPage.css";
+import { useRegistry } from './hooks/useRegistry';
+import { GiftTile } from './GiftTile/GiftTile';
+import { Navigationbar } from './NavigationBar/NavigationBar';
+import './LandingPage.css';
 
 export const LandingPage = () => {
   const { gifts, error, isLoading } = useRegistry();
@@ -33,7 +33,7 @@ export const LandingPage = () => {
         I got tired of sending out the same gift list year round, so here's my
         permanent gift registry
       </p>
-      <p className="subtext">(up to date prices and not owned yet)</p>
+      <p className='subtext'>(up to date prices and not owned yet)</p>
       {gifts?.length === 0 && (
         <div>
           Ope, nothing is currently on my list. Check the amazon links at the
@@ -43,7 +43,7 @@ export const LandingPage = () => {
       {underFiftyGifts?.some((gift) => gift !== undefined) && (
         <>
           <h3>Under $50</h3>
-          <div className="section">
+          <div className='section'>
             {underFiftyGifts.map((gift, index) => {
               if (gift === undefined) return undefined;
               return <GiftTile key={`underFifty-${index}`} gift={gift} />;
@@ -54,7 +54,7 @@ export const LandingPage = () => {
       {fiftyToOneHundredGifts?.some((gift) => gift !== undefined) && (
         <>
           <h3>$50 - $100</h3>
-          <div className="section">
+          <div className='section'>
             {fiftyToOneHundredGifts.map((gift, index) => {
               if (gift === undefined) return undefined;
               return (
@@ -67,7 +67,7 @@ export const LandingPage = () => {
       {overOneHundredGifts?.some((gift) => gift !== undefined) && (
         <>
           <h3>Over $100</h3>
-          <div className="section">
+          <div className='section'>
             {overOneHundredGifts.map((gift, index) => {
               if (gift === undefined) return undefined;
               return <GiftTile key={`overOneHundred-${index}`} gift={gift} />;

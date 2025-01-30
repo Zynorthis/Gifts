@@ -3,6 +3,14 @@
   "version": "0.1.0",
   "private": true,
   "homepage": ".",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "prettier": "prettier --write .",
+    "prettier-ci": "prettier --check ."
+  },
   "dependencies": {
     "@mantine/carousel": "^7.14.2",
     "@mantine/charts": "^7.14.2",
@@ -39,13 +47,6 @@
     "sass": "^1.81.0",
     "typescript": "^4.9.5",
     "web-vitals": "^2.1.4"
-  },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "prettier": "prettier --write ."
   },
   "eslintConfig": {
     "extends": [

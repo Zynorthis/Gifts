@@ -1,7 +1,7 @@
-import { Card } from "@mantine/core";
-import { Gift } from "../models";
-import { IconBrandAmazon, IconLink } from "@tabler/icons-react";
-import "./GiftTile.css";
+import { Card } from '@mantine/core';
+import { Gift } from '../models';
+import { IconBrandAmazon, IconLink } from '@tabler/icons-react';
+import './GiftTile.css';
 
 export interface GiftTileProps {
   gift: Gift;
@@ -16,7 +16,7 @@ export const GiftTile = ({ gift }: GiftTileProps) => {
   };
 
   return (
-    <Card className="card">
+    <Card className='card'>
       <Card.Section>
         <h3>{gift.name}</h3>
       </Card.Section>
@@ -24,24 +24,24 @@ export const GiftTile = ({ gift }: GiftTileProps) => {
         <div>Price: ${formatPrice(gift.price)}</div>
       </Card.Section>
       <Card.Section>
-        {gift.amazonLink !== "" && (
+        {gift.amazonLink !== '' && (
           <a
             href={gift.amazonLink}
-            target="_blank"
-            rel="noreferrer"
-            className="link-icon"
+            target='_blank'
+            rel='noreferrer'
+            className='link-icon'
           >
-            <IconBrandAmazon color="grey" className="icon" />
+            <IconBrandAmazon color='grey' className='icon' />
           </a>
         )}
-        {gift.genericLink !== "" && (
+        {gift.genericLink !== '' && (
           <a
             href={gift.genericLink}
-            target="_blank"
-            rel="noreferrer"
-            className="link-icon"
+            target='_blank'
+            rel='noreferrer'
+            className='link-icon'
           >
-            <IconLink color="grey" className="icon" />
+            <IconLink color='grey' className='icon' />
           </a>
         )}
       </Card.Section>

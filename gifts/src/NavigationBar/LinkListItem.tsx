@@ -1,4 +1,4 @@
-import "./LinkListItem.css";
+import './LinkListItem.css';
 
 export interface LinkListItemProps {
   link: string;
@@ -11,10 +11,10 @@ export const LinkListItem = ({
   text,
   shouldOpenInNewTab = true,
 }: LinkListItemProps) => {
-  const target = shouldOpenInNewTab ? "_blank" : "_self";
+  const target = shouldOpenInNewTab ? '_blank' : '_self';
   return (
     <li>
-      <a href={link} target={target} rel="noreferrer">
+      <a href={link} target={target} rel='noreferrer'>
         {text}
       </a>
     </li>
