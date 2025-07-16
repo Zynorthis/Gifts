@@ -3,4 +3,5 @@ export interface Gift {
   amazonLink: string;
   genericLink: string;
   price: number;
+  note?: string;
 }

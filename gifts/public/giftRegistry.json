@@ -18,10 +18,11 @@
     "price": 5500
   },
   {
-    "name": "Corne Keyboard",
+    "name": "Voyager Keyboard",
     "amazonLink": "",
-    "genericLink": "#",
-    "price": 7500
+    "genericLink": "https://www.zsa.io/voyager/buy",
+    "price": 36500,
+    "note": "Color: Black, Keycaps: US, Keyswitches: Kailh Choc Brown"
   },
   {
     "name": "Laptop Extendable Monitor",

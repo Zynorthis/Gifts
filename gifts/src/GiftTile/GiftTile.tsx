@@ -24,6 +24,11 @@ export const GiftTile = ({ gift }: GiftTileProps) => {
         <div>Price: ${formatPrice(gift.price)}</div>
       </Card.Section>
       <Card.Section>
+        {gift.note && (
+          <p>{gift.note}</p>
+        )}
+      </Card.Section>
+      <Card.Section>
         {gift.amazonLink !== '' && (
           <a
             href={gift.amazonLink}

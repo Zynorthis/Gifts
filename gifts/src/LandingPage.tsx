@@ -1,5 +1,7 @@
+import { IconInfoCircle } from '@tabler/icons-react';
 import { useRegistry } from './hooks/useRegistry';
 import { GiftTile } from './GiftTile/GiftTile';
+import { Note } from './Note/Note';
 import { Navigationbar } from './NavigationBar/NavigationBar';
 import './LandingPage.css';
 
@@ -21,6 +23,8 @@ export const LandingPage = () => {
     return undefined;
   });
 
+  const infoIcon = <IconInfoCircle />;
+
   if (isLoading) return <div>Loading...</div>;
   if (error) return <div>Error: {error}</div>;
   if (!gifts) return <div>No gifts found</div>;
@@ -30,10 +34,16 @@ export const LandingPage = () => {
       <Navigationbar />
       <h1>Gift Registry</h1>
       <p>
-        I got tired of sending out the same gift list year round, so here's my
+        I got tired of sending out the same set of wishlist links to everyone who asked, so here's my
         permanent gift registry
       </p>
       <p className='subtext'>(up to date prices and not owned yet)</p>
+      <div className='notes'>
+        <Note title='Note:'>
+          To view the wishlist of games I have by clicking the 'Games' link, you will need to log into steam.
+        </Note>
+        <Note title='Note:'>If nothing here appeals to you, money is always an option :)</Note>
+      </div>
       {gifts?.length === 0 && (
         <div>
           Ope, nothing is currently on my list. Check the amazon links at the
