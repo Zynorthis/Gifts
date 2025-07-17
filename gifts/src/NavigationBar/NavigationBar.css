@@ -1,11 +1,13 @@
 nav {
-  background-color: rgb(124, 124, 124);
-  padding: 1rem;
+  background-color: rgb(124, 124, 124, 0.7);
+  display: flex;
+  flex-direction: row;
 }
 
 nav ul {
   list-style: none;
-  display: inline;
+  padding-left: 0.5rem;
+  padding: 0;
 }
 
 .divider {

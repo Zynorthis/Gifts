@@ -5,13 +5,18 @@
   margin: 0 2rem;
 }
 
+h1 {
+  margin: 3rem;
+}
+
 p {
-  margin-bottom: 0;
+  margin: 0 1rem;
+  padding-bottom: 2rem;
+  font-size: 24px;
 }
 
 .subtext {
-  font-size: 1rem;
-  padding-bottom: 2rem;
+  font-size: 16px;
 }
 
 .notes {
