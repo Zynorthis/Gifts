@@ -1,14 +1,41 @@
-li {
-  display: inline;
-  margin-right: auto;
-}
-
 a {
+  justify-content: center;
+  align-items: center;
   text-decoration: none;
-  color: black;
+  color: lightseagreen;
+  transition: 0.3s;
+  font-size: 2rem;
+  margin: 0.5rem;
+  padding: 1rem;
 }
 
 a:hover {
   /* TODO: Find better color scheme for text and navbar background */
+  color: white;
+}
+
+.black {
+  color: black;
+}
+
+.black:hover {
   color: lightseagreen;
+}
+
+.white {
+  color: white;
+}
+
+.white:hover {
+  color: black;
+}
+
+.lightseagreen {
+  color: lightseagreen;
+  border: 1px lightseagreen solid;
+  border-radius: 10px;
+}
+
+.lightseagreen:hover {
+  color: white;
 }
