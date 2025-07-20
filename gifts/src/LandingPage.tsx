@@ -1,8 +1,8 @@
 import { useRegistry } from './hooks/useRegistry';
 import { GiftTile } from './GiftTile/GiftTile';
-import { LinkListItem } from './NavigationBar/LinkListItem';
+import { LinkListItem } from './LinkListItem/LinkListItem';
 import { Note } from './Note/Note';
-import { Navigationbar } from './NavigationBar/NavigationBar';
+import { Footer } from './Footer/Footer';
 import './LandingPage.css';
 
 export const LandingPage = () => {
@@ -29,7 +29,6 @@ export const LandingPage = () => {
 
   return (
     <>
-      <Navigationbar />
       <h1>Gift Registry</h1>
       <p>
         I got tired of sending out the same set of wishlist links to everyone who asked, so here's my
@@ -116,6 +115,7 @@ export const LandingPage = () => {
           </div>
         </>
       )}
+      <Footer />
     </>
   );
 };
