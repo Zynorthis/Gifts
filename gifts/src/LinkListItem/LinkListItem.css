@@ -18,6 +18,11 @@ a:hover {
   color: black;
 }
 
+.black-border {
+  border: 1px black solid;
+  border-radius: 10px;
+}
+
 .black:hover {
   color: lightseagreen;
 }
@@ -26,16 +31,32 @@ a:hover {
   color: white;
 }
 
+.white-border {
+  border: 1px white solid;
+  border-radius: 10px;
+}
+
 .white:hover {
   color: black;
 }
 
 .lightseagreen {
   color: lightseagreen;
+}
+
+.lightseagreen-border {
   border: 1px lightseagreen solid;
   border-radius: 10px;
 }
 
 .lightseagreen:hover {
   color: white;
+}
+
+@media screen and (max-width: 600px) {
+  a {
+    font-size: 1rem;
+    margin: 0;
+    padding-left: 0.5rem;
+  }
 }
