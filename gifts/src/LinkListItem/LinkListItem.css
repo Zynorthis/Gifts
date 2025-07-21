@@ -1,0 +1,62 @@
+a {
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: lightseagreen;
+  transition: 0.3s;
+  font-size: 2rem;
+  margin: 0.5rem;
+  padding: 1rem;
+}
+
+a:hover {
+  /* TODO: Find better color scheme for text and navbar background */
+  color: white;
+}
+
+.black {
+  color: black;
+}
+
+.black-border {
+  border: 1px black solid;
+  border-radius: 10px;
+}
+
+.black:hover {
+  color: lightseagreen;
+}
+
+.white {
+  color: white;
+}
+
+.white-border {
+  border: 1px white solid;
+  border-radius: 10px;
+}
+
+.white:hover {
+color: black;
+}
+
+.lightseagreen {
+  color: lightseagreen;
+}
+
+.lightseagreen-border {
+  border: 1px lightseagreen solid;
+  border-radius: 10px;
+}
+
+.lightseagreen:hover {
+  color: white;
+}
+
+@media screen and (max-width: 600px) {
+  a {
+    font-size: 1rem;
+    margin: 0;
+    padding-left: 0.5rem;
+  }
+}

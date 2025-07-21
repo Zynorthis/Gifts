@@ -1,9 +1,9 @@
 [
   {
-    "name": "Bambu Lab A1 Printer Combo",
+    "name": "Bambu Lab A1 Printer",
     "amazonLink": "",
     "genericLink": "https://us.store.bambulab.com/products/a1?srsltid=AfmBOoobhwIMnS5gztt8FtjqZ5omrrOrI184rkoIMMhLzAAJwoAhZQxq",
-    "price": 48900
+    "price": 34900
   },
   {
     "name": "Raspberry Pi 3 Model B Plus (B+)",
@@ -18,21 +18,42 @@
     "price": 5500
   },
   {
-    "name": "Corne Keyboard",
+    "name": "Voyager Keyboard",
     "amazonLink": "",
-    "genericLink": "#",
-    "price": 7500
+    "genericLink": "https://www.zsa.io/voyager/buy",
+    "price": 36500,
+    "note": "I would prefer the following configuration: Color = Black, Keycaps = US, Keyswitches = Kailh Choc Brown"
   },
   {
     "name": "Laptop Extendable Monitor",
-    "amazonLink": "",
-    "genericLink": "#",
-    "price": 19999
+    "amazonLink": "https://www.amazon.com/Portable-Monitor-Extender-Connection-Tri-Screen/dp/B0CDNHHGYK?source=ps-sl-shoppingads-lpcontext&ref_=fplfs&smid=A1WMFB7P808BWJ&gQT=1&th=1",
+    "genericLink": "",
+    "price": 15399
   },
   {
-    "name": "No Grid Survival Projects Book",
+    "name": "Skull USB (32GB)",
+    "amazonLink": "https://www.amazon.com/Excitent-Halloween-Flash-Drive-32GB/dp/B0F483L4L2?gQT=1&th=1",
+    "genericLink": "",
+    "price": 799,
+    "note": "The 64GB version is also okay to purchase."
+  },
+  {
+    "name": "Hyte Y70 PC Case",
     "amazonLink": "",
-    "genericLink": "#",
-    "price": 1599
+    "genericLink": "https://hyte.com/store/y70/cs-hyte-y70-b",
+    "price": 23999
+  },
+  {
+    "name": "Wooden Raised Garden Bed",
+    "amazonLink": "",
+    "genericLink": "https://www.lowes.com/pd/Best-Choice-Products-48x24x30in-Raised-Garden-Bed-Elevated-Wooden-Planter-for-Yard-w-Foot-Caps-Liner-Natural/7032995?user=shopping&feed=yes&srsltid=AfmBOoqD2P0r_fqeUIZbFjGtgFKblk1nkKq_cMHi4D-bOZJvo85JES4jA0s&gQT=1",
+    "price": 8999
+  },
+  {
+    "name": "Storage Shelving",
+    "amazonLink": "https://www.amazon.com/REIBII-Shelving-Adjustable-Warehouse-Basement/dp/B0CF92VGS7?source=ps-sl-shoppingads-lpcontext&ref_=fplfs&smid=AP9OSMF6C31WK&gQT=1&th=1",
+    "genericLink": "",
+    "price": 4196,
+    "note": "I need several of these to help organize my garage 😬"
   }
 ]
