@@ -5,6 +5,7 @@
   transition: 0.5s;
   width: 15rem;
   margin: 1rem;
+  min-height: 15rem;
 }
 
 .card:hover {
@@ -12,9 +13,50 @@
   padding: 2rem;
 }
 
+.card-title {
+  font-size: 2rem;
+  color: white;
+}
+
+.card-price {
+  margin-top: 0.5rem;
+  font-size: 1.5rem;
+  color: white;
+}
+
+.card-note {
+  margin-top: 0.5rem;
+  font-size: 1rem;
+  color: white;
+}
+
 .link-icon {
   margin-top: 1rem;
-  width: 2rem;
-  height: 2rem;
+  width: 3rem;
+  height: 3rem;
   font-size: medium;
+}
+
+@media screen and (max-width: 600px) {
+  .card {
+    min-height: 10rem;
+  }
+
+  .card-title {
+    font-size: 1.5rem;
+  }
+
+  .card-price {
+    padding-top: 1rem;
+    font-size: 1.2rem;
+  }
+
+  .card-note {
+    padding-top: 1rem;
+  }
+
+  .link-icon {
+    width: 2rem;
+    height: 2rem;
+  }
 }
