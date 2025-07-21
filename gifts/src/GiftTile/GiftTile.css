@@ -13,11 +13,8 @@
 }
 
 .link-icon {
-  font-size: medium;
-}
-
-.icon {
   margin-top: 1rem;
   width: 2rem;
   height: 2rem;
+  font-size: medium;
 }

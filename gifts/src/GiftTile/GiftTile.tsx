@@ -36,7 +36,7 @@ export const GiftTile = ({ gift }: GiftTileProps) => {
             rel='noreferrer'
             className='link-icon'
           >
-            <IconBrandAmazon color='grey' className='icon' />
+            <IconBrandAmazon color='grey' className='link-icon' />
           </a>
         )}
         {gift.genericLink !== '' && (
@@ -44,9 +44,8 @@ export const GiftTile = ({ gift }: GiftTileProps) => {
             href={gift.genericLink}
             target='_blank'
             rel='noreferrer'
-            className='link-icon'
           >
-            <IconLink color='grey' className='icon' />
+            <IconLink color='grey' className='link-icon' />
           </a>
         )}
       </Card.Section>

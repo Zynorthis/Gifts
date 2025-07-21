@@ -50,4 +50,8 @@ div > li {
   .section {
     grid-template-columns: 80vw;
   }
+
+  .links > a {
+    margin: 0.5rem;
+  }
 }
