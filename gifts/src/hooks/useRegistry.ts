@@ -21,7 +21,7 @@ export const useRegistry = () => {
         );
       }
       const result: Gift[] = await response.json();
-      setGifts([]);
+      setGifts(result);
     } catch (error) {
       console.error(error);
       setError(
