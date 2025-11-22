@@ -8,26 +8,29 @@ export const useRegistry = () => {
   const [error, setError] = useState<string | null>(null);
 
   useEffect(() => {
-    const fetchData = async () => {
-      try {
-        const response = await fetch(giftRegistryPath);
-        if (!response.ok) {
-          throw new Error(
-            `Failed to fetch gift registry data: ${response.statusText}`,
-          );
-        }
-        const result: Gift[] = await response.json();
-        setGifts(result);
-      } catch (error) {
-        setError(
-          error instanceof Error ? error.message : 'An unknown error occurred',
-        );
-      } finally {
-        setIsLoading(false);
-      }
-    };
     fetchData();
   }, []);
+
+  const fetchData = async () => {
+    setIsLoading(true);
+    try {
+      const response = await fetch(giftRegistryPath);
+      if (!response.ok) {
+        throw new Error(
+          `Failed to fetch gift registry data:\n${response.statusText}`,
+        );
+      }
+      const result: Gift[] = await response.json();
+      setGifts([]);
+    } catch (error) {
+      console.error(error);
+      setError(
+        error instanceof Error ? error.message : 'An unknown error occurred',
+      );
+    } finally {
+      setIsLoading(false);
+    }
+  };
 
   return { gifts, isLoading, error };
 };
