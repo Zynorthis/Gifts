@@ -39,7 +39,7 @@ export const LandingPage = () => {
       <p>
         I got tired of sending out the same dozen wishlist links to everyone who asked, so I made this website that has everything
       </p>
-      <p className='subtext'>(Last updated on 11/21/2025)</p>
+      <p className='subtext'>(Last updated on 11/22/2025)</p>
       <div className='notes'>
         <Note title='Note:'>
           To view my wishlist of video games, which can be done by clicking the 'Games' link, you will need have a steam account and be logged in.
