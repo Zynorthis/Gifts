@@ -1,4 +1,6 @@
-.loading, .error, .no-registry {
+.loading,
+.error,
+.no-registry {
   margin-top: 50vh;
   font-size: 3rem;
 }
