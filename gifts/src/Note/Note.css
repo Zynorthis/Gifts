@@ -2,7 +2,7 @@
   display: block;
   flex-direction: column;
   justify-content: flex-start;
-  background: rgba(34, 139, 230, .15);
+  background: rgba(34, 139, 230, 0.15);
   border-radius: 1rem;
   width: 80%;
   margin: 1rem;

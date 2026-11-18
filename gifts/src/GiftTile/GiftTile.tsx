@@ -24,26 +24,16 @@ export const GiftTile = ({ gift }: GiftTileProps) => {
         <div className='card-price'>Price: ${formatPrice(gift.price)}</div>
       </Card.Section>
       <Card.Section>
-        {gift.note && (
-          <div className='card-note'>{gift.note}</div>
-        )}
+        {gift.note && <div className='card-note'>{gift.note}</div>}
       </Card.Section>
       <Card.Section>
         {gift.amazonLink !== '' && (
-          <a
-            href={gift.amazonLink}
-            target='_blank'
-            rel='noreferrer'
-          >
+          <a href={gift.amazonLink} target='_blank' rel='noreferrer'>
             <IconBrandAmazon color='grey' className='link-icon' />
           </a>
         )}
         {gift.genericLink !== '' && (
-          <a
-            href={gift.genericLink}
-            target='_blank'
-            rel='noreferrer'
-          >
+          <a href={gift.genericLink} target='_blank' rel='noreferrer'>
             <IconLink color='grey' className='link-icon' />
           </a>
         )}
