@@ -43,7 +43,7 @@ export const LandingPage = () => {
         I got tired of sending out the same dozen wishlist links to everyone who
         asked, so I made this website that has everything
       </p>
-      <p className='subtext'>(Last updated on 11/22/2025)</p>
+      <p className='subtext'>(Last updated on 11/17/2026!)</p>
       <div className='notes'>
         <Note title='Note:'>
           To view my wishlist of video games, which can be done by clicking the
