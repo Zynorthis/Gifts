@@ -3,7 +3,7 @@
     "name": "Bambu Lab A1 Printer",
     "amazonLink": "",
     "genericLink": "https://us.store.bambulab.com/products/a1",
-    "price": 27900
+    "price": 35900
   },
   {
     "name": "Raspberry Pi 3 Model B Plus (B+)",
@@ -12,10 +12,10 @@
     "price": 4000
   },
   {
-    "name": "Raspberry Pi Model 4 / 4GB",
+    "name": "Raspberry Pi 4 Model B/1GB",
     "amazonLink": "",
-    "genericLink": "https://www.pishop.us/product/raspberry-pi-4-model-b-4gb/?src=raspberrypi",
-    "price": 5500
+    "genericLink": "https://www.pishop.us/product/raspberry-pi-4-model-b-1gb/",
+    "price": 3500
   },
   {
     "name": "Voyager Keyboard",
@@ -28,39 +28,32 @@
     "name": "Laptop Extendable Monitor",
     "amazonLink": "https://www.amazon.com/Portable-Monitor-Extender-Connection-Tri-Screen/dp/B0CDNHHGYK?source=ps-sl-shoppingads-lpcontext&ref_=fplfs&smid=A1WMFB7P808BWJ&gQT=1&th=1",
     "genericLink": "",
-    "price": 14999
-  },
-  {
-    "name": "Skull USB (32GB)",
-    "amazonLink": "https://www.amazon.com/Excitent-Halloween-Flash-Drive-32GB/dp/B0F483L4L2?gQT=1&th=1",
-    "genericLink": "",
-    "price": 799,
-    "note": "The 64GB version is also okay to purchase."
+    "price": 11499
   },
   {
     "name": "Hyte Y70 PC Case",
     "amazonLink": "",
     "genericLink": "https://hyte.com/store/y70/cs-hyte-y70-b",
-    "price": 17999
+    "price": 21999
   },
   {
     "name": "Wooden Raised Garden Bed",
     "amazonLink": "",
-    "genericLink": "https://www.lowes.com/pd/Best-Choice-Products-48x24x30in-Raised-Garden-Bed-Elevated-Wooden-Planter-for-Yard-w-Foot-Caps-Liner-Natural/7032995?user=shopping&feed=yes&srsltid=AfmBOoqD2P0r_fqeUIZbFjGtgFKblk1nkKq_cMHi4D-bOZJvo85JES4jA0s&gQT=1",
-    "price": 8799
+    "genericLink": "https://www.lowes.com/pd/VEVOR-Raised-Garden-Bed-3-9-x-1-9-x-2-5-ft-Wooden-Planter-Box-Elevated-Outdoor-Planting-Boxes-with-Legs-for-Growing-Flowers-Vegetables-Herbs-in-Backyard-Garden-Patio-Balcony-Burlywood/5014316391",
+    "price": 8098
   },
   {
     "name": "Storage Shelving",
     "amazonLink": "https://www.amazon.com/REIBII-2020LBS-Shelving-Adjustable-Basement/dp/B0DBHGYKXQ",
     "genericLink": "",
-    "price": 3999,
+    "price": 5599,
     "note": "I need several of these to help organize my garage 😬"
   },
   {
     "name": "Fancy Electronic Chess Board",
     "amazonLink": "",
     "genericLink": "https://playchessup.com/products/chessup-2",
-    "price": 32999,
+    "price": 34999,
     "note": "Look at a video of this board if you get a chance to, its very cool!"
   }
 ]
